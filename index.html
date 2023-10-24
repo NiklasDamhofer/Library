@@ -17,15 +17,35 @@
         <h4 class="h4Text" >Just press + to add a book!</h4>
         <div class="inputSection">
             <div class="label" id="label1" >
+                <label for="name">Book</label>
                 <input type="text" class="book" id="name" >
             </div>
             <div class="label" id="label2" >
+                <label for="author">Author</label>
                 <input type="text" class="author" id="author" >
             </div>
             <div class="label" id="label3" >
-                <input type="" class="status" >
+                <label for="status">Status</label>
+                <select type="" class="status" id="status" >
+                    <option value="read" >Read</option>
+                    <option value="not read" >Not read</option>
+                </select>
             </div>
-            
+        </div>
+        <div class="submit">
+            <button type="submit" id="submit" class="submit">Submit</button>
+        </div>
+        <div class="row" >
+            <table class="twelve columns">
+                <tbody>
+                    <tr>
+                        <th>Name</th>
+                        <th>Author</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </main>
 </body>
