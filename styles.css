@@ -42,3 +42,12 @@ html {
     flex-direction: column;
     gap: 5px;
 }
+
+th {
+    width: 200px;
+    border-bottom: 1px solid #333;
+}
+
+table {
+    margin-top: 40px;
+}
